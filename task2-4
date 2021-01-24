@@ -1,9 +1,8 @@
-a=[1,2,3,4]
-b=[]
-
+a = [1,2,3,4]
+b = []
 print(id(a))
 print(id(b))
-b=a
+b = a
 print(id(a))
 print(id(b))
 b.extend('8')
